@@ -1,1 +1,6 @@
-<p>main works!</p>
+<div class="video_wrapper">
+    <div *ngFor="let data of videoDatas">
+      <app-video-card [videoData]="data"></app-video-card>
+    </div>
+  </div>
+  

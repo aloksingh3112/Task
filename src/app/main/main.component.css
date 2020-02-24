@@ -1,0 +1,9 @@
+.video_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 80px;
+    margin-top: 1rem;
+    grid-auto-rows: minmax(150px, auto);
+    background-color: #f9f9f9;
+  }
+  

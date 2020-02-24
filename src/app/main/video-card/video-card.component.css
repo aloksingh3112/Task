@@ -1,0 +1,22 @@
+.views_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+  .side_icon i {
+    font-size: 1.8rem;
+  }
+  .side_icon {
+    width: 10%;
+  }
+  .profile_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  

@@ -8,6 +8,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { HamburgerComponent } from './header/hamburger/hamburger.component';
 import { NavProfileComponent } from './header/nav-profile/nav-profile.component';
 import { SearchComponent } from './header/search/search.component';
+import { SidebarLinkComponent } from './sidebar/sidebar-link/sidebar-link.component';
+import { SidebarLinksComponent } from './sidebar/sidebar-links/sidebar-links.component';
+import { VideoCardComponent } from './main/video-card/video-card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { SearchComponent } from './header/search/search.component';
     SidebarComponent,
     HamburgerComponent,
     NavProfileComponent,
-    SearchComponent
+    SearchComponent,
+    SidebarLinkComponent,
+    SidebarLinksComponent,
+    VideoCardComponent
   ],
   imports: [
     BrowserModule

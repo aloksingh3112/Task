@@ -1,0 +1,19 @@
+<div class="video_card">
+    <iframe
+      src="https://www.youtube.com/embed/au7eZtOhU20" 
+      width="300"
+      height="215"
+    ></iframe>
+    <div class="profile_wrapper">
+      <div class="side_icon">
+        <img [src]="videoData.image" class="avatar" />
+      </div>
+      <p>{{ videoData.about }}</p>
+    </div>
+  
+    <div class="views_wrapper">
+      <div>{{ videoData.views }}</div>
+      <div>{{ videoData.date }}</div>
+    </div>
+  </div>
+  
