@@ -1,0 +1,11 @@
+.search_button {
+    padding: 0.6rem;
+    width: 70px;
+    cursor: pointer;
+    background-color: #f8f8f8;
+  }
+  .search_bar_wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  

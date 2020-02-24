@@ -1,0 +1,13 @@
+.side_icon i {
+    font-size: 1.4rem;
+  }
+  
+  .side_icon {
+    width: 10%;
+  }
+  .icon_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+  }
+  

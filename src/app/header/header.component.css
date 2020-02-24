@@ -1,0 +1,12 @@
+.header {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 4fr 1fr;
+    align-items: center;
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  

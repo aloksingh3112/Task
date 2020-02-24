@@ -1,0 +1,11 @@
+.wrapper1 {
+    display: grid;
+    margin-top: 1rem;
+  }
+  .wrapper2 {
+    display: grid;
+    grid-template-columns: 4fr 1fr 5fr;
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+  }
+  
